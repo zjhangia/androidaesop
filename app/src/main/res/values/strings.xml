@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Æsop</string>
+    <string name="title_bbc">BBC</string>
+    <string name="title_collection">Collection</string>
+    <string name="title_about">About</string>
+
+    <string name="title">The <font color='#01C6DB'>Æsop\'s</font> Fables</string>
+
+    <string name="row_first">I - VIII</string>
+    <string name="row_second">IX - XVI</string>
+    <string name="row_third">XVII - XXIV</string>
+
+    <!--bbc title name -->
+    <string name="bbc_01">01.The Hare And The Tortoise</string>
+    <string name="bbc_02">02.The Frogs And The Ox</string>
+    <string name="bbc_03">03.The Fox And The Crow</string>
+    <string name="bbc_04">04.The Monkey As King</string>
+    <string name="bbc_05">05.The Bundle Of Sticks</string>
+    <string name="bbc_06">06.The Gnat And The Lion</string>
+    <string name="bbc_07">07.The North Wind And The Sun</string>
+    <string name="bbc_08">08.The Fox And The Grapes</string>
+    <string name="bbc_09">09.The Dog, The Cockerel And The Fox</string>
+    <string name="bbc_10">10.The Miller, His Son And The Donkey</string>
+    <string name="bbc_11">11.The Wolf And The Heron</string>
+    <string name="bbc_12">12.The Donkey In The Lion\'s Skin</string>
+    <string name="bbc_13">13.The Ant And The Grasshopper</string>
+    <string name="bbc_14">14.The Vain Jackdaw</string>
+    <string name="bbc_15">15.The Frogs Who Wanted A King</string>
+    <string name="bbc_16">16.The Cat And The Mice</string>
+    <string name="bbc_17">17.The Lion And The Mouse</string>
+    <string name="bbc_18">18.The Caged Birds And The Bat</string>
+    <string name="bbc_19">19.The Fox And The Goat</string>
+    <string name="bbc_20">20.The Lion And The Elephant</string>
+    <string name="bbc_21">21.The Crow And The Pitcher</string>
+    <string name="bbc_22">22.The Fox And The Stork</string>
+    <string name="bbc_23">23.Two Travellers And A Bear</string>
+    <string name="bbc_24">24.The Goose That Laid The Golden Eggs</string>
+    <string name="bbc_25">25.The Kid And The Wolf</string>
+    <string name="bbc_26">26.The Old Lion And The Fox</string>
+    <string name="bbc_27">27.The Eagle And The Jackdaw</string>
+    <string name="bbc_28">28.The Wolf In Sheep\'s Clothing</string>
+    <string name="bbc_29">29.The Goatherd And The Wild Goats</string>
+    <string name="bbc_30">30.The Dog In The Manger</string>
+    <string name="bbc_31">31.Androcles And The Lion</string>
+    <string name="bbc_32">32.The Dog And His Reflection</string>
+    <string name="bbc_33">33.The Heron And The Fish</string>
+    <string name="bbc_34">34.The Eagle And The Tortoise</string>
+    <string name="bbc_35">35.The Town Mouse And The Country Mouse</string>
+    <string name="bbc_36">36.Belling The Cat</string>
+    <string name="bbc_37">37.The Too Fat Fox</string>
+    <string name="bbc_38">38.The Rat And The Elephant</string>
+    <string name="bbc_39">39.The Ant And The Dove</string>
+    <string name="bbc_40">40.The Boy Who Cried Wolf</string>
+
+    <!-- collection -->
+    <string name="c_01">01.The Frogs And The Ox</string>
+    <string name="c_02">02.Belling The Cat</string>
+    <string name="c_03">03.The Town Mouse And The Country Mouse</string>
+    <string name="c_04">04.The Fox And The Grapes</string>
+    <string name="c_05">05.The Wolf And The Crane</string>
+    <string name="c_06">06.The Lion And The Mouse</string>
+    <string name="c_07">07.The Gnat And The Bull</string>
+    <string name="c_08">08.The Plane Tree</string>
+    <string name="c_09">09.The Owl And The Grasshopper</string>
+    <string name="c_10">10.The Oak And The Reeds</string>
+    <string name="c_11">11.The Crow And The Pitcher</string>
+    <string name="c_12">12.The Two Goats</string>
+    <string name="c_13">13.The Wild Boar And The Fox</string>
+    <string name="c_14">14.The Heron</string>
+    <string name="c_15">15.The Fox And The Stork</string>
+    <string name="c_16">16.The Stag And His Reflection</string>
+    <string name="c_17">17.The Cock And The Fox</string>
+    <string name="c_18">18.The Fox And The Goat</string>
+    <string name="c_19">19.The Fox And The Leopard</string>
+    <string name="c_20">20.The Frog And The Mouse</string>
+    <string name="c_21">21.The Wolf In Sheep\'s Clothing</string>
+    <string name="c_22">22.The Eagle And The Beetle</string>
+    <string name="c_23">23.The Mother And The Wolf</string>
+    <string name="c_24">24.The Hare And The Tortoise</string>
+    <string name="c_25">25.The Dog And His Reflection</string>
+    <string name="c_26">26.The Fox And The Crow</string>
+    <string name="c_27">27.The Ant And The Dove</string>
+    <string name="c_28">28.The Man And The Satyr</string>
+    <string name="c_29">29.The Hare And His Ears</string>
+    <string name="c_30">30.The Fisherman And The Little Fish</string>
+    <string name="c_31">31.The Wolf And The Kid</string>
+    <string name="c_32">32.The Tortoise And The Ducks</string>
+    <string name="c_33">33.The Young Crab And His Mother</string>
+    <string name="c_34">34.The Dog,The Cock And The Fox</string>
+    <string name="c_35">35.The Eagle ANd The Jackdaw</string>
+    <string name="c_36">36.The Boy And The Filberts</string>
+    <string name="c_37">37.Hercules And The Wagoner</string>
+    <string name="c_38">38.The Kid And The Wolf</string>
+    <string name="c_39">39.The Bundle Of Sticks</string>
+    <string name="c_40">40.The Ass And His Driver</string>
+
+
+
+
+
+
+
+
+    <!-- about -->
+    <string name="about_bbc">about_bbc</string>
+    <string name="about_collection">about_collection</string>
+
+
+    <!--number-->
+    <string name="no.0">I---VIII</string>
+    <string name="no.1">IX---XVI</string>
+    <string name="no.2">XVII---XXIV</string>
+    <string name="no.3">XXV---XXXII</string>
+    <string name="no.4">XXXIII---XL</string>
+
+    <string name="massivetext">GitHub - LittleMango/StackLayoutManager: A …
+https://github.com/LittleMango/StackLayoutManager
+Nov 04, 2018 · Basic usage. The simplest way to use StackLayoutManager is by dropping the library JAR file into your project creating the StackLayoutManager object and pass it back to …
+
+Some results are removed in response to a notice of local law requirement. For more information, please see here.
+Some results have been hidden because they may be inaccessible to you.
+        GitHub - LittleMango/StackLayoutManager: A …
+https://github.com/LittleMango/StackLayoutManager
+Nov 04, 2018 · Basic usage. The simplest way to use StackLayoutManager is by dropping the library JAR file into your project creating the StackLayoutManager object and pass it back to …
+
+Some results are removed in response to a notice of local law requirement. For more information, please see here.
+Some results have been hidden because they may be inaccessible to you.
+Show inaccessible results</string>
+</resources>

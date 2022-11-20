@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_roundcorner"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--[title] [progressbar] [start time total time(or left time)] [back 10 sec, playbutton forward 10 sec]-->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/music_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="01The Hare And The Tortoise"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"/>
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/music_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_title"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/music_starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/music_seekbar"
+        app:layout_constraintTop_toBottomOf="@+id/music_seekbar"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/music_endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total time"
+        android:layout_marginTop="15dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/music_seekbar"
+        app:layout_constraintTop_toBottomOf="@+id/music_seekbar"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/music_replay_10s"
+        android:layout_width="@dimen/dp_music"
+        android:layout_height="@dimen/dp_music"
+        android:src="@drawable/ic_baseline_replay_10_24"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toStartOf="@+id/music_starttime"
+        app:layout_constraintTop_toBottomOf="@+id/music_starttime"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/music_play"
+        android:layout_width="@dimen/dp_music"
+        android:layout_height="@dimen/dp_music"
+        android:src="@drawable/ic_baseline_play_circle_outline_24"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/music_starttime"
+        app:layout_constraintLeft_toLeftOf="@+id/music_seekbar"
+        app:layout_constraintRight_toRightOf="@+id/music_seekbar"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/music_forward_10s"
+        android:layout_width="@dimen/dp_music"
+        android:layout_height="@dimen/dp_music"
+        android:src="@drawable/ic_baseline_forward_10_24"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/music_endtime"
+        app:layout_constraintTop_toBottomOf="@+id/music_endtime"/>
+    <!--to control the height at this moment still don't know how to handle dialog-->
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="@+id/music_starttime"
+        app:layout_constraintTop_toBottomOf="@+id/music_starttime"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
